@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500&display=swap");
+body {
+  background-color: rgba(0, 0, 0, 0.89);
+  background-image: url("https://www.kerry.com/content/dam/kerry/en/images/products/nutrition-ingredients/wellness-ingredients-hero.jpg");
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+.buttontologin {
+  position: fixed;
+  left: 538px;
+  top: 452px;
+  text-align: center;
+  visibility: hidden;
+  transform: scale(1.1);
+  transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+  font-size: 1.2em;
+}
+
+.show-login {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+a {
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: black;
+  letter-spacing: 2px;
+}
+a:hover {
+  color: orange;
+}
+
+.signup-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 5em;
+  background-color: rgba(255, 255, 255, 0.44);
+  width: 50%;
+  min-height: 65vh;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.signup-wrapper h3 {
+  text-align: center;
+  margin-top: 2em;
+  padding: 0 2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.signup-content {
+  margin-left: 3em;
+}
+.child-wrapper {
+  width: 55%;
+}
+.child-wrapper2 {
+  width: 45%;
+  background-color: rgba(255, 166, 0, 0.732);
+}
+
+.logo-image img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 10em;
+}
+.signup-input {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.44);
+  width: 80%;
+
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border-style: none;
+}
+
+::placeholder {
+  font-size: 1.2em;
+}
+.submit {
+  width: 60%;
+  display: block;
+  margin: auto;
+  letter-spacing: 2px;
+  background-color: rgba(0, 0, 0, 0.849);
+  padding: 1em;
+  border: solid 1px rgba(0, 0, 0, 0.425);
+  border-radius: 3px;
+  color: white;
+}
