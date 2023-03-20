@@ -462,7 +462,7 @@ h2 {
 
 .site-info {
   margin-left: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   justify-content: center;
   font-size: 1.5em;
 }
@@ -475,6 +475,6 @@ h2 {
 
 .footer-img img {
   height: 4em;
-  margin-left: 40em;
+  margin-left: 36em;
   margin-top: 1em;
 }
