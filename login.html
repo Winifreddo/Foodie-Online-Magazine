@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9695737191.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- navigation -->
+    <div class="container">
+      <nav>
+        <ul>
+          <li id="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- login form -->
+    <div class="login-wrapper">
+      <div class="child-wrapper">
+        <img src="images/logo.png" alt="logo" height="47em" class="logo" />
+        <h3 id="login-heading">Login</h3>
+        <form action="" id="login" class="form">
+          <p id="error-message"></p>
+          <label for="username"
+            ><i class="fa-solid fa-user"></i> Username</label
+          >
+          <input
+            type="text"
+            class="login-input"
+            id="username-field"
+            name="username"
+          />
+
+          <label for="password-field"
+            ><i class="fa-solid fa-lock"></i> Password</label
+          >
+
+          <input
+            class="login-input"
+            type="password"
+            id="password-field"
+            name="password-field"
+          />
+          <p><a href="" class="password-prompt"> Forgotten password?</a></p>
+          <button class="submit" type="submit" id="login-submit">Login</button>
+        </form>
+      </div>
+      <!-- signup form -->
+      <div class="child-wrapper2">
+        <img
+          class="signup-img"
+          src="https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/peaches-branch.jpeg?itok=7Ejveeal"
+          alt="peach"
+          height="182em"
+        />
+        <h3>Not a Member yet?</h3>
+        <p>Sign up to get access to great content and offers!</p>
+        <button class="trigger"><a href="register.html"> Sign Up</a></button>
+      </div>
+    </div>
+    <script src="log_reg.js"></script>
+  </body>
+</html>
