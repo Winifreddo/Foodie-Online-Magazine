@@ -115,7 +115,7 @@ i:hover {
 .wrapper {
   border-radius: 4px;
   height: 340px;
-  width: 1200px;
+  width: 1104px;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
@@ -141,9 +141,9 @@ i:hover {
   border-radius: 4px;
 
   /* background-color: #e0d9d3; */
-  min-width: 295px;
+  min-width: 271px;
   height: 330px;
-  margin-right: 16px;
+  margin-right: 10px;
   display: inline-block;
 }
 
